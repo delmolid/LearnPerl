@@ -23,3 +23,13 @@ if (defined($price)){
 } else {
     print "no"
 }
+
+#Default variable 
+$_ = "Bonjour Molid \n";
+print ;
+
+my @noms = ('Alice', 'Bob', 'Chloé');
+
+foreach (@noms) {
+    print "Salut $_\n";
+}
